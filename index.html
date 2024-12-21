@@ -1,25 +1,139 @@
-<html>
-  <head></head>
-  <body>
-    <pre style="word-wrap: break-word; white-space: pre-wrap;">
-    
-   ❦ What about a plain text website? ❦
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Johnstone</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #f5f5dc; /* Tea-like beige */
+            color: #4b2e1e; /* Dark tea color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
-Literally nothing else. Just this writing. I could make my own headers using markdown syntax. It doesn't get rendered, it just breaks things up a bit.
+        .about-container {
+            background-color: #fffaf0; /* Light tea cream */
+            border: 2px dashed #d2b48c; /* Teacup saucer design */
+            border-radius: 15px;
+            width: 60%;
+            max-width: 600px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            position: relative;
+        }
 
-# Wednesday, 8th Dec, 2021
+        .profile-pic {
+            position: absolute;
+            top: -40px;
+            left: 20px;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid #d2b48c;
+            background-color: #fff;
+            overflow: hidden;
+        }
 
-Whilst writing an email about daily notes pages, and found myself starting to search for more blogs and tools, I thought why not take it back to absolutely nothing. Here's a plain text file, in a git repo, where I just type.
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
 
-It's an excuse for ascii art again! ☞ (╯°□°)╯︵ ʞooqǝɔɐℲ
+        .about-content {
+            padding-top: 50px;
+            line-height: 1.6;
+        }
 
-# Tuesday, 14th Dec, 2021
+        .about-content h1 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
 
-I wonder what emojis look like in it... 🤔🐸👋🎄🗃🧊
-    
-    </pre>
-  </body>
+        .about-content p {
+            font-size: 1rem;
+        }
+
+        .links {
+            margin-top: 20px;
+        }
+
+        .links a {
+            display: inline-block;
+            margin: 5px;
+            padding: 8px 12px;
+            background-color: #d2b48c;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            transition: background-color 0.3s;
+        }
+
+        .links a:hover {
+            background-color: #b5936a;
+        }
+
+        .tea-detail {
+            position: absolute;
+            bottom: -15px;
+            right: 15px;
+            font-size: 1.5rem;
+            color: #d2b48c;
+            transform: rotate(-20deg);
+        }
+
+        .steam {
+            position: absolute;
+            top: -10px;
+            right: 50%;
+            transform: translateX(50%);
+            font-size: 1rem;
+            color: #d2b48c;
+            animation: steam 3s infinite;
+        }
+
+        @keyframes steam {
+            0%, 100% {
+                opacity: 1;
+                transform: translateX(50%) translateY(0);
+            }
+            50% {
+                opacity: 0;
+                transform: translateX(50%) translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="about-container">
+        <div class="profile-pic">
+            <img src="me.jpg" alt="Profile Picture">
+        </div>
+        <div class="about-content">
+            <h1>👋 Hi, I'm Alex Johnstone</h1>
+            <p>I'm a a computer science hobbyist, photography enthusiast, and a licensed radio amateur who enjoys activating from hilltops and mountains.</p>
+        </div>
+        <div class="links">
+            <a href="https://wiki.alexjj.com">Wiki</a>
+            <a href="https://gm5alx.uk">Radio Blog</a>
+            <a href="https://github.com/alexjj">Github</a>
+            <a href="mailto:alex@alexjj.com">Contact</a>
+        </div>
+        <div class="tea-detail">🫖</div>
+        <div class="steam">~ ~ ~</div>
+    </div>
+</body>
 </html>
-
-
