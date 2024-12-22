@@ -11,7 +11,7 @@ body {
         --_s: calc(2*var(--s)) calc(2*var(--s));
         --_g1: var(--_s) conic-gradient(at calc(500%/6) 50%,var(--c3) 25%,#0000 0);
         --_g2: var(--_s) conic-gradient(at calc(200%/3) 50%,var(--c2) 25%,#0000 0);
-        background:
+    background:
           var(--s) var(--s)/var(--_g1),0 0/var(--_g1),
           var(--s) var(--s)/var(--_g2),0 0/var(--_g2),
           repeating-conic-gradient(var(--c1) 0 25%,#0000 0 50%) 0 0/var(--_s),
@@ -20,12 +20,14 @@ body {
     font-family: 'atkinson hyperlegible', -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'segoe ui', 'helvetica neue', noto, 'noto sans', roboto, cantarell, ubuntu, helvetica, arial, sans-serif;
     font-size: 1rem;
     line-height: 1.62;
-    background-color: #f5f5dc;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+
+.with-padding {
     padding-top: 50px;
 }
 
