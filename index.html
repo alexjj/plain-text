@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alex Johnstone</title>
     <style>
-        /* General Reset */
         * {
             margin: 0;
             padding: 0;
@@ -14,8 +13,8 @@
 
         body {
             font-family: 'Courier New', Courier, monospace;
-            background-color: #f5f5dc; /* Tea-like beige */
-            color: #4b2e1e; /* Dark tea color */
+            background-color: #f5f5dc;
+            color: #4b2e1e;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -23,8 +22,8 @@
         }
 
         .about-container {
-            background-color: #fffaf0; /* Light tea cream */
-            border: 2px dashed #d2b48c; /* Teacup saucer design */
+            background-color: #fffaf0;
+            border: 2px dashed #d2b48c;
             border-radius: 15px;
             width: 60%;
             max-width: 600px;
@@ -92,7 +91,12 @@
             right: 15px;
             font-size: 1.5rem;
             color: #d2b48c;
+            text-decoration: none;
             transform: rotate(-20deg);
+        }
+
+        .tea-detail:hover {
+            transform: rotate(20deg);
         }
 
         .steam {
@@ -132,8 +136,8 @@
             <a href="https://github.com/alexjj">Github</a>
             <a href="mailto:alex@alexjj.com">Contact</a>
         </div>
-        <div class="tea-detail">🫖</div>
-        <div class="steam">~ ~ ~</div>
+        <a href="https://fondoftea.com" class="tea-detail">🫖</a>
+        <div class="steam">≈ ≈ ≈</div>
     </div>
 </body>
 </html>
