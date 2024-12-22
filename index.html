@@ -8,128 +8,12 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <title>Alex Johnstone</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Courier New', Courier, monospace;
-            background-color: #f5f5dc;
-            color: #4b2e1e;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        .about-container {
-            background-color: #fffaf0;
-            border: 2px dashed #d2b48c;
-            border-radius: 15px;
-            width: 60%;
-            max-width: 600px;
-            padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            text-align: center;
-            position: relative;
-        }
-
-        .profile-pic {
-            position: absolute;
-            top: -40px;
-            left: 20px;
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            border: 3px solid #d2b48c;
-            background-color: #fff;
-            overflow: hidden;
-        }
-
-        .profile-pic img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .about-content {
-            padding-top: 50px;
-            line-height: 1.6;
-        }
-
-        .about-content h1 {
-            font-size: 1.8rem;
-            margin-bottom: 10px;
-        }
-
-        .about-content p {
-            font-size: 1rem;
-        }
-
-        .links {
-            margin-top: 20px;
-        }
-
-        .links a {
-            display: inline-block;
-            margin: 5px;
-            padding: 8px 12px;
-            background-color: #d2b48c;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 0.9rem;
-            transition: background-color 0.3s;
-        }
-
-        .links a:hover {
-            background-color: #b5936a;
-        }
-
-        .tea-detail {
-            position: absolute;
-            bottom: -15px;
-            right: 15px;
-            font-size: 1.5rem;
-            color: #d2b48c;
-            text-decoration: none;
-            transform: rotate(-20deg);
-            transition: transform 0.3s;
-        }
-
-        .tea-detail:hover {
-            transform: rotate(20deg);
-        }
-
-        .steam {
-            position: absolute;
-            top: -10px;
-            right: 50%;
-            transform: translateX(50%);
-            font-size: 1rem;
-            color: #d2b48c;
-            animation: steam 3s infinite;
-        }
-
-        @keyframes steam {
-            0%, 100% {
-                opacity: 1;
-                transform: translateX(50%) translateY(0);
-            }
-            50% {
-                opacity: 0;
-                transform: translateX(50%) translateY(-10px);
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="about-container">
         <div class="profile-pic">
-            <img src="me.jpg" alt="Profile Picture">
+            <img src="/img/me.jpg" alt="Profile Picture">
         </div>
         <div class="about-content">
             <h1>👋 Hi, I'm Alex Johnstone</h1>
@@ -142,6 +26,8 @@
             <a href="mailto:alex@alexjj.com">Contact</a>
         </div>
         <a href="https://fondoftea.com" class="tea-detail">🫖</a>
+        <a href="/etc/index.html" class="gif-detail">
+        <img src="/img/poke_8.gif" alt="GIF Link" class="gif-image"></a>
         <div class="steam">≈ ≈ ≈</div>
     </div>
 </body>

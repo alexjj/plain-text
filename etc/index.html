@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Johnstone etc.</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        .collapsible {
+            margin-top: 20px;
+        }
+
+        .collapsible input[type="checkbox"] {
+            display: none;
+        }
+
+        .collapsible label {
+            font-size: 1.5rem;
+            font-weight: bold;
+            cursor: pointer;
+            display: block;
+            margin-bottom: 10px;
+            color: #4b2e1e;
+            text-align: left;
+            transition: color 0.3s;
+        }
+
+        .collapsible label:hover {
+            color: #d2b48c;
+        }
+
+        .collapsible label::after {
+            content: '\25BC';
+            font-size: 1rem;
+            float: right;
+            transition: transform 0.3s;
+        }
+
+        .collapsible input[type="checkbox"]:checked + label::after {
+            transform: rotate(180deg);
+        }
+
+        .collapsible .content {
+            max-height: 0;
+            overflow: hidden;
+            padding: 0;
+            text-align: justify;
+            transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+        }
+
+        .collapsible input[type="checkbox"]:checked ~ .content {
+            max-height: 500px; /* Adjust as needed */
+            padding: 10px 0;
+        }
+
+        .collapsible .content p {
+            margin: 0;
+            font-size: 1rem;
+            line-height: 1.8;
+            color: #4b2e1e;
+        }
+    </style>
+</head>
+<body>
+    <div class="about-container">
+        <div class="profile-pic">
+            <a href="/"><img src="/img/me3.jpg" alt="Profile Picture"></a>
+        </div>
+        <div class="about-content">
+            <h1>etc.</h1>
+
+            <div class="collapsible">
+                <input type="checkbox" id="about">
+                <label for="about">About</label>
+                <div class="content">
+                    <p>Learn more about my background, interests, and journey into computer science and radio.</p>
+                </div>
+            </div>
+
+            <div class="collapsible">
+                <input type="checkbox" id="uses">
+                <label for="uses">Uses</label>
+                <div class="content">
+                    <p>I use a mix of tools and technologies, including programming languages like Python, and hardware for my radio operations.</p>
+                </div>
+            </div>
+
+            <div class="collapsible">
+                <input type="checkbox" id="now">
+                <label for="now">Now</label>
+                <div class="content">
+                    <p>Currently, I'm focused on exploring new peaks for radio activations and enhancing my photography skills.</p>
+                    <ul>
+                        <li>One item</li>
+                        <li>Two items</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="collapsible">
+                <input type="checkbox" id="favourites">
+                <label for="favourites">Favourites</label>
+                <div class="content">
+                    <p>Some of my favorite things include vintage cameras, classic sci-fi novels, and a perfectly brewed cup of Earl Grey tea.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
