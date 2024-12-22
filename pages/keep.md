@@ -1,5 +1,7 @@
 ---
 title: Keepsakes
+layout: page
+permalink: /keep/
 ---
 
 _Little things I like to remember._
