@@ -22,9 +22,10 @@ body {
     line-height: 1.62;
     background-color: #f5f5dc;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .content {
