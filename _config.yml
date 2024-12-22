@@ -1,0 +1,7 @@
+domain: alexjj.com
+url: https://alexjj.com
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
