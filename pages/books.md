@@ -11,6 +11,14 @@ List of books I've read:
 
 ### 2024
 
+* _Bastille vs. The Evil Librarians_, (2022), Brandon Sanderson, 304 pg
+* _The Dark Talent_, Brandon Sanderson, (2016), Brandon Sanderson, 304 pg
+* _Alcatraz vs. The Shattered Lens_, (2010), Brandon Sanderson, 336 pg
+* _Alcatraz Versus the Knights of Crystallia_, (2009), Brandon Sanderson, 340 pg
+* _Alcatraz Versus the Scrivener's Bones_, (2008), Brandon Sanderson, 337 pg
+* _Alcatraz vs. The Evil Librarians_, (2007), Brandon Sanderson, 328 pg
+* _The Frugal Wizard's Handbook for Surviving Medieval England_, (2023), 372 pg
+* _Penric and the Bandit_, (2024), Lois McMaster Bujold, 123 pg
 * _The Sunlit Man_, (2023), Brandon Sanderson, 447 pg
 * _Yumi and the Nightmare Painter_, (2023), Brandon Sanderson, 461 pg
 * _Tress of the Emerald Sea_, (2023), Brandon Sanderson, 443 pg
