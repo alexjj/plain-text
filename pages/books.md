@@ -9,6 +9,10 @@ add_padding: true
 
 List of books I've read:
 
+### 2025
+
+* _The Rithmatist_, (2013), Brandon Sanderson, 386 pg
+
 ### 2024
 
 * _Bastille vs. The Evil Librarians_, (2022), Brandon Sanderson, 304 pg
